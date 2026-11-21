@@ -1,0 +1,159 @@
+{
+  "entities": {
+    "UserProfile": {
+      "title": "UserProfile",
+      "description": "Authenticated teacher account profile for cloud storage and Google Drive integration.",
+      "type": "object",
+      "properties": {
+        "uid": { "type": "string", "maxLength": 128 },
+        "email": { "type": "string", "maxLength": 200 },
+        "displayName": { "type": "string", "maxLength": 120 },
+        "role": { "type": "string", "enum": ["teacher", "admin"], "maxLength": 20 },
+        "createdAt": { "type": "string", "format": "date-time", "maxLength": 64 },
+        "updatedAt": { "type": "string", "format": "date-time", "maxLength": 64 }
+      },
+      "required": ["uid", "email", "displayName", "role", "createdAt", "updatedAt"]
+    },
+    "ClassRoom": {
+      "title": "ClassRoom",
+      "description": "Classroom record supporting 10 shared tablets rotating across class periods.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "maxLength": 64, "pattern": "^[A-Za-z0-9_\\-]+$" },
+        "ownerUid": { "type": "string", "maxLength": 128 },
+        "name": { "type": "string", "maxLength": 160 },
+        "grade": { "type": "string", "maxLength": 60 },
+        "teacherName": { "type": "string", "maxLength": 120 },
+        "createdAt": { "type": "string", "format": "date-time", "maxLength": 64 },
+        "updatedAt": { "type": "string", "format": "date-time", "maxLength": 64 }
+      },
+      "required": ["id", "ownerUid", "name", "grade", "teacherName", "createdAt", "updatedAt"]
+    },
+    "Lesson": {
+      "title": "Lesson",
+      "description": "Digital Citizenship lesson with 15+ mapped questions across TT 02/2025 competencies.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "maxLength": 80, "pattern": "^[A-Za-z0-9_\\-]+$" },
+        "ownerUid": { "type": "string", "maxLength": 128 },
+        "title": { "type": "string", "maxLength": 240 },
+        "topic": { "type": "string", "maxLength": 240 },
+        "sourceFileName": { "type": "string", "maxLength": 200 },
+        "summary": { "type": "string", "maxLength": 2000 },
+        "assignedClassIds": { "type": "array", "description": "Assigned class codes (max 50)." },
+        "questions": { "type": "array", "description": "Quiz questions (1 to 30 questions)." },
+        "createdAt": { "type": "string", "format": "date-time", "maxLength": 64 },
+        "updatedAt": { "type": "string", "format": "date-time", "maxLength": 64 }
+      },
+      "required": ["id", "ownerUid", "title", "topic", "sourceFileName", "summary", "assignedClassIds", "questions", "createdAt", "updatedAt"]
+    },
+    "AnswerSubmission": {
+      "title": "AnswerSubmission",
+      "description": "Student team answer and speed+accuracy score submission.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "maxLength": 80, "pattern": "^[A-Za-z0-9_\\-]+$" },
+        "ownerUid": { "type": "string", "maxLength": 128 },
+        "classId": { "type": "string", "maxLength": 64 },
+        "groupId": { "type": "string", "maxLength": 120 },
+        "tabletNumber": { "type": "integer" },
+        "groupName": { "type": "string", "maxLength": 80 },
+        "lessonId": { "type": "string", "maxLength": 80 },
+        "lessonTitle": { "type": "string", "maxLength": 240 },
+        "questionId": { "type": "string", "maxLength": 80 },
+        "competencyId": { "type": "string", "maxLength": 16 },
+        "competencyIds": { "type": "array" },
+        "userAnswer": { "type": "string", "maxLength": 1000 },
+        "isCorrect": { "type": "boolean" },
+        "basePoints": { "type": "integer" },
+        "speedBonus": { "type": "integer" },
+        "totalPoints": { "type": "integer" },
+        "elapsedMs": { "type": "integer" },
+        "submittedAt": { "type": "string", "maxLength": 64 },
+        "feedbackText": { "type": "string", "maxLength": 500 },
+        "explanation": { "type": "string", "maxLength": 1200 },
+        "syncedFromOffline": { "type": "boolean" },
+        "createdAt": { "type": "string", "format": "date-time", "maxLength": 64 }
+      },
+      "required": ["id", "ownerUid", "classId", "groupId", "tabletNumber", "groupName", "lessonId", "lessonTitle", "questionId", "competencyId", "userAnswer", "isCorrect", "basePoints", "speedBonus", "totalPoints", "elapsedMs", "submittedAt", "feedbackText", "explanation", "createdAt"]
+    },
+    "PushNotification": {
+      "title": "PushNotification",
+      "description": "Assignment push alert delivered to assigned classrooms.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "maxLength": 80, "pattern": "^[A-Za-z0-9_\\-]+$" },
+        "ownerUid": { "type": "string", "maxLength": 128 },
+        "classId": { "type": "string", "maxLength": 64 },
+        "lessonId": { "type": "string", "maxLength": 80 },
+        "title": { "type": "string", "maxLength": 240 },
+        "message": { "type": "string", "maxLength": 1000 },
+        "readByGroupIds": { "type": "array" },
+        "createdAt": { "type": "string", "format": "date-time", "maxLength": 64 }
+      },
+      "required": ["id", "ownerUid", "classId", "lessonId", "title", "message", "readByGroupIds", "createdAt"]
+    },
+    "ActivityLog": {
+      "title": "ActivityLog",
+      "description": "Classroom tablet activity event log.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "maxLength": 80, "pattern": "^[A-Za-z0-9_\\-]+$" },
+        "ownerUid": { "type": "string", "maxLength": 128 },
+        "classId": { "type": "string", "maxLength": 64 },
+        "groupId": { "type": "string", "maxLength": 120 },
+        "action": { "type": "string", "maxLength": 120 },
+        "detail": { "type": "string", "maxLength": 500 },
+        "competencyId": { "type": "string", "maxLength": 16 },
+        "pointsDelta": { "type": "integer" },
+        "timestamp": { "type": "string", "maxLength": 64 },
+        "createdAt": { "type": "string", "format": "date-time", "maxLength": 64 }
+      },
+      "required": ["id", "ownerUid", "classId", "groupId", "action", "detail", "timestamp", "createdAt"]
+    },
+    "PublicWorkspace": {
+      "title": "PublicWorkspace",
+      "description": "Published classroom and lesson bundle readable by share code on the server for zero-login student tablets.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "maxLength": 64, "pattern": "^[A-Za-z0-9_\\-]+$" },
+        "ownerUid": { "type": "string", "maxLength": 128 },
+        "classes": { "type": "array", "description": "Published classrooms (max 100)." },
+        "lessons": { "type": "array", "description": "Published lessons with questions (max 100)." },
+        "createdAt": { "type": "string", "format": "date-time", "maxLength": 64 },
+        "updatedAt": { "type": "string", "format": "date-time", "maxLength": 64 }
+      },
+      "required": ["id", "ownerUid", "classes", "lessons", "createdAt", "updatedAt"]
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": { "$ref": "#/entities/UserProfile" },
+      "description": "Teacher user profiles, strictly readable/writable only by owner or admin."
+    },
+    "/classes/{classId}": {
+      "schema": { "$ref": "#/entities/ClassRoom" },
+      "description": "Classrooms owned and edited by the teacher."
+    },
+    "/lessons/{lessonId}": {
+      "schema": { "$ref": "#/entities/Lesson" },
+      "description": "Lessons and 15+ question sets owned and edited by the teacher."
+    },
+    "/submissions/{submissionId}": {
+      "schema": { "$ref": "#/entities/AnswerSubmission" },
+      "description": "Graded student submissions synced to the teacher's Firestore workspace."
+    },
+    "/notifications/{notificationId}": {
+      "schema": { "$ref": "#/entities/PushNotification" },
+      "description": "Assignment push notifications synced to the teacher's Firestore workspace."
+    },
+    "/activityLogs/{logId}": {
+      "schema": { "$ref": "#/entities/ActivityLog" },
+      "description": "Student and teacher activity logs synced to the teacher's Firestore workspace."
+    },
+    "/publicWorkspaces/{workspaceId}": {
+      "schema": { "$ref": "#/entities/PublicWorkspace" },
+      "description": "Published workspace snapshots fetched by the server via share code so student tablets need no Firebase login."
+    }
+  }
+}

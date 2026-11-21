@@ -1,0 +1,6 @@
+{
+  "name": "EduBot Digital Citizen — Trò Chơi Công Dân Số",
+  "description": "Hệ thống trò chơi học tập và đánh giá 24 năng lực Công dân số (TT 02/2025) cho lớp học dùng chung máy tính bảng, tích hợp AI tạo câu hỏi từ bài học, đồng bộ ngoại tuyến và bảng vinh danh theo kỹ năng.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

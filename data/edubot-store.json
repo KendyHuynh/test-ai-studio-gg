@@ -1,0 +1,828 @@
+{
+  "classes": [
+    {
+      "id": "LOP-5A",
+      "name": "Lớp 5A - Tin học & Công dân số",
+      "grade": "Khối 5",
+      "teacherName": "Cô Minh Anh",
+      "createdAt": "2026-11-17T03:18:39.062Z"
+    },
+    {
+      "id": "LOP-5B",
+      "name": "Lớp 5B - Thực hành Năng lực số",
+      "grade": "Khối 5",
+      "teacherName": "Thầy Quốc Bảo",
+      "createdAt": "2026-11-17T03:18:39.062Z"
+    },
+    {
+      "id": "LOP-6A",
+      "name": "Lớp 6A - Công dân số Khám phá AI",
+      "grade": "Khối 6",
+      "teacherName": "Cô Thu Hà",
+      "createdAt": "2026-11-17T03:18:39.062Z"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "lesson-safety-netiquette",
+      "title": "Bài 1: Bảo vệ dữ liệu & Ứng xử văn minh trên mạng",
+      "topic": "An toàn thông tin, Bản quyền số & Giao tiếp trực tuyến",
+      "sourceFileName": "Bai1_CongDanSo_TT02.pdf",
+      "summary": "Bài học giúp học sinh nắm vững cách tạo mật khẩu an toàn, nhận diện tin giả, tôn trọng bản quyền hình ảnh và ứng xử lịch sự trên không gian mạng.",
+      "assignedClassIds": [
+        "LOP-5A",
+        "LOP-5B"
+      ],
+      "createdAt": "2026-11-17T04:06:16.496Z",
+      "questions": [
+        {
+          "id": "q1-pw",
+          "type": "multiple_choice",
+          "questionText": "Khi lập tài khoản học tập trực tuyến, lựa chọn mật khẩu nào sau đây giúp bảo vệ dữ liệu cá nhân tốt nhất?",
+          "options": [
+            "12345678",
+            "ngay_sinh_cua_em_2015",
+            "SaoXanh#5A@2026!",
+            "matkhau"
+          ],
+          "aiSearchKeywordHint": "Cách đặt mật khẩu mạnh an toàn thông tin học sinh",
+          "correctAnswer": "SaoXanh#5A@2026!",
+          "competencyId": "4.2",
+          "competencyIds": [
+            "4.2",
+            "4.1"
+          ],
+          "explanation": "Mật khẩu mạnh cần kết hợp chữ hoa, chữ thường, chữ số và ký tự đặc biệt, tuyệt đối không dùng ngày sinh hay dãy số dễ đoán."
+        },
+        {
+          "id": "q2-fakenews",
+          "type": "multiple_choice",
+          "questionText": "Em thấy một bài đăng giật gân trên mạng xã hội nói rằng \"Uống nước chanh đá chữa khỏi mọi bệnh trong 1 giờ\". Em nên làm gì đầu tiên?",
+          "options": [
+            "Chia sẻ ngay cho cả lớp biết",
+            "Kiểm chứng nguồn tin trên báo chính thống hoặc trang y tế uy tín",
+            "Bình luận khen ngợi rồi lưu về máy",
+            "Gửi vào nhóm chat gia đình"
+          ],
+          "aiSearchKeywordHint": "Cách nhận biết tin giả và kiểm chứng thông tin trên mạng",
+          "correctAnswer": "Kiểm chứng nguồn tin trên báo chính thống hoặc trang y tế uy tín",
+          "competencyId": "1.2",
+          "competencyIds": [
+            "1.2",
+            "2.2"
+          ],
+          "explanation": "Năng lực Đánh giá thông tin (1.2) yêu cầu luôn kiểm tra tác giả, nguồn gốc và đối chiếu nhiều nguồn tin cậy trước khi tin hoặc chia sẻ."
+        },
+        {
+          "id": "q3-copyright",
+          "type": "fill_blank",
+          "questionText": "Khi sử dụng tranh ảnh hoặc đoạn văn của người khác để làm bài thuyết trình, công dân số có trách nhiệm phải ghi rõ ______ và tên tác giả.",
+          "aiSearchKeywordHint": "Quy định ghi nguồn trích dẫn bản quyền tác giả khi làm bài thuyết trình",
+          "correctAnswer": "nguồn",
+          "competencyId": "3.3",
+          "competencyIds": [
+            "3.3"
+          ],
+          "explanation": "Tôn trọng bản quyền và giấy phép (3.3) thể hiện ở việc luôn ghi rõ nguồn trích dẫn và tên tác giả, không sao chép như của mình."
+        },
+        {
+          "id": "q4-netiquette",
+          "type": "multiple_choice",
+          "questionText": "Trong nhóm thảo luận học tập online, một bạn gõ toàn bộ chữ IN HOA và dùng lời lẽ chế giễu ý kiến của bạn khác. Hành vi này vi phạm năng lực nào?",
+          "options": [
+            "2.5. Quy tắc ứng xử (Netiquette)",
+            "3.4. Lập trình cơ bản",
+            "4.4. Bảo vệ môi trường",
+            "5.1. Khắc phục sự cố phần cứng"
+          ],
+          "aiSearchKeywordHint": "Quy tắc ứng xử trên mạng Netiquette chữ in hoa",
+          "correctAnswer": "2.5. Quy tắc ứng xử (Netiquette)",
+          "competencyId": "2.5",
+          "competencyIds": [
+            "2.5"
+          ],
+          "explanation": "Viết toàn chữ in hoa trên mạng giống như đang quát mắng và chế giễu người khác là vi phạm Quy tắc ứng xử số (2.5)."
+        },
+        {
+          "id": "q5-health",
+          "type": "multiple_choice",
+          "questionText": "Để bảo vệ sức khỏe an sinh số (Digital Well-being) khi dùng máy tính bảng học tập, thói quen nào đúng nhất?",
+          "options": [
+            "Nhìn sát màn hình trong phòng tối để tiết kiệm pin",
+            "Áp dụng quy tắc 20-20-20: mỗi 20 phút nhìn xa 20 feet (~6m) trong 20 giây",
+            "Dùng liên tục 3 tiếng không nghỉ để hoàn thành nhanh",
+            "Vừa ăn vừa xem màn hình sát mặt trước khi ngủ"
+          ],
+          "aiSearchKeywordHint": "Quy tắc 20-20-20 bảo vệ mắt khi dùng máy tính bảng",
+          "correctAnswer": "Áp dụng quy tắc 20-20-20: mỗi 20 phút nhìn xa 20 feet (~6m) trong 20 giây",
+          "competencyId": "4.3",
+          "competencyIds": [
+            "4.3"
+          ],
+          "explanation": "Sức khỏe an sinh số (4.3) giúp cân bằng giữa học tập trực tuyến và bảo vệ thị lực, cột sống cũng như giấc ngủ."
+        },
+        {
+          "id": "q6-ai-ethics",
+          "type": "short_answer",
+          "questionText": "Nếu em dùng trợ lý AI để gợi ý ý tưởng cho bài viết của mình, em có nên chép nguyên văn và nhận là tự mình viết không? Vì sao?",
+          "aiSearchKeywordHint": "Sử dụng AI có đạo đức trung thực học thuật học sinh",
+          "correctAnswer": "Không nên chép nguyên văn mà cần tự hiểu, chỉnh sửa và ghi nhận hỗ trợ của AI",
+          "competencyId": "6.2",
+          "competencyIds": [
+            "6.2",
+            "2.3"
+          ],
+          "explanation": "Sử dụng AI có đạo đức (6.2) đòi hỏi sự trung thực: AI là công cụ hỗ trợ học tập, học sinh cần tự kiểm chứng, sáng tạo bằng suy nghĩ của mình và minh bạch khi có sự trợ giúp."
+        },
+        {
+          "id": "q7-2fa",
+          "type": "multiple_choice",
+          "questionText": "Bật xác thực hai bước (2FA) cho tài khoản học tập giúp ích gì nhiều nhất?",
+          "options": [
+            "Giúp tăng tốc độ Wi-Fi khi làm bài kiểm tra",
+            "Ngăn kẻ xấu đăng nhập ngay cả khi họ biết mật khẩu của em",
+            "Tự động làm giúp bài tập về nhà",
+            "Xóa toàn bộ ảnh cũ trên máy tính bảng"
+          ],
+          "aiSearchKeywordHint": "Xác thực 2 bước 2FA bảo vệ tài khoản học sinh là gì",
+          "correctAnswer": "Ngăn kẻ xấu đăng nhập ngay cả khi họ biết mật khẩu của em",
+          "competencyId": "4.1",
+          "competencyIds": [
+            "4.1",
+            "4.2"
+          ],
+          "explanation": "Xác thực 2 bước (2FA) thêm một lớp mã OTP bảo vệ thiết bị và tài khoản (4.1, 4.2) ngay cả khi mật khẩu bị lộ."
+        },
+        {
+          "id": "q8-pii",
+          "type": "multiple_choice",
+          "questionText": "Thông tin nào dưới đây là dữ liệu cá nhân nhạy cảm KHÔNG được tự ý đăng công khai trên mạng xã hội?",
+          "options": [
+            "Tên một cuốn sách em yêu thích",
+            "Số căn cước, địa chỉ nhà riêng, số điện thoại và lịch học hàng ngày",
+            "Màu sắc yêu thích của nhóm em",
+            "Tên môn học Tin học"
+          ],
+          "aiSearchKeywordHint": "Dữ liệu cá nhân nhạy cảm không nên chia sẻ công khai trên mạng",
+          "correctAnswer": "Số căn cước, địa chỉ nhà riêng, số điện thoại và lịch học hàng ngày",
+          "competencyId": "4.2",
+          "competencyIds": [
+            "4.2"
+          ],
+          "explanation": "Bảo vệ dữ liệu cá nhân (4.2) giúp em tránh bị kẻ xấu lợi dụng, mạo danh hoặc theo dõi ngoài đời thực."
+        },
+        {
+          "id": "q9-identity",
+          "type": "multiple_choice",
+          "questionText": "Khi đặt tên hiển thị và ảnh đại diện trên diễn đàn học tập của trường, em nên làm gì?",
+          "options": [
+            "Dùng ảnh lịch sự, tên rõ ràng phù hợp môi trường học đường",
+            "Lấy ảnh của thầy cô hoặc bạn khác để giả mạo",
+            "Đặt tên chứa từ ngữ thiếu văn hóa để gây chú ý",
+            "Đăng ảnh chụp thẻ học sinh có đầy đủ mã số"
+          ],
+          "aiSearchKeywordHint": "Quản lý danh tính số an toàn cho học sinh trên mạng",
+          "correctAnswer": "Dùng ảnh lịch sự, tên rõ ràng phù hợp môi trường học đường",
+          "competencyId": "2.6",
+          "competencyIds": [
+            "2.6"
+          ],
+          "explanation": "Quản lý danh tính số (2.6) giúp xây dựng hình ảnh tích cực, văn minh và không xâm phạm quyền riêng tư."
+        },
+        {
+          "id": "q10-phishing",
+          "type": "multiple_choice",
+          "questionText": "Em nhận được tin nhắn lạ: \"Chúc mừng bạn trúng máy tính bảng miễn phí, bấm vào link này và nhập mật khẩu để nhận quà\". Em làm gì?",
+          "options": [
+            "Bấm ngay để không lỡ phần quà",
+            "Nhập thử mật khẩu của bố mẹ",
+            "Không bấm vào liên kết lạ, báo cho thầy cô hoặc phụ huynh biết",
+            "Gửi tiếp link đó cho 10 bạn cùng lớp"
+          ],
+          "aiSearchKeywordHint": "Nhận biết link lừa đảo phishing trúng thưởng trên mạng",
+          "correctAnswer": "Không bấm vào liên kết lạ, báo cho thầy cô hoặc phụ huynh biết",
+          "competencyId": "4.1",
+          "competencyIds": [
+            "4.1",
+            "4.2"
+          ],
+          "explanation": "Đây là chiêu trò lừa đảo (Phishing). Tuyệt đối không bấm vào đường link lạ hoặc nhập mật khẩu để nhận thưởng ảo."
+        },
+        {
+          "id": "q11-footprint",
+          "type": "fill_blank",
+          "questionText": "Mỗi bình luận, lượt thích hay tệp ảnh em đăng lên mạng đều để lại ______ số tồn tại rất lâu trên Internet.",
+          "aiSearchKeywordHint": "Dấu chân số digital footprint là gì trên Internet",
+          "correctAnswer": "dấu chân",
+          "competencyId": "2.3",
+          "competencyIds": [
+            "2.3",
+            "2.6"
+          ],
+          "explanation": "Dấu chân số (Digital Footprint) lưu lại lịch sử hoạt động trực tuyến, nên công dân số cần suy nghĩ kỹ trước khi đăng tải."
+        },
+        {
+          "id": "q12-environment",
+          "type": "multiple_choice",
+          "questionText": "Hành động nào giúp bảo vệ môi trường khi sử dụng máy tính bảng và thiết bị số?",
+          "options": [
+            "Bật độ sáng 100% và để màn hình sáng suốt cả ngày dù không học",
+            "Giảm độ sáng hợp lý, tắt máy khi không sử dụng và thu gom pin/thiết bị hỏng đúng nơi quy định",
+            "Vứt pin cũ vào thùng rác sinh hoạt chung",
+            "Cắm sạc liên tục 24/24 suốt nhiều tuần"
+          ],
+          "aiSearchKeywordHint": "Bảo vệ môi trường khi sử dụng thiết bị công nghệ số tiết kiệm năng lượng",
+          "correctAnswer": "Giảm độ sáng hợp lý, tắt máy khi không sử dụng và thu gom pin/thiết bị hỏng đúng nơi quy định",
+          "competencyId": "4.4",
+          "competencyIds": [
+            "4.4"
+          ],
+          "explanation": "Bảo vệ môi trường (4.4) gắn với thói quen tiết kiệm điện năng và xử lý rác thải điện tử đúng cách."
+        },
+        {
+          "id": "q13-storage",
+          "type": "multiple_choice",
+          "questionText": "Cách sắp xếp tệp bài tập nào giúp em dễ tìm lại và sao lưu an toàn giữa các tiết học?",
+          "options": [
+            "Lưu tất cả vào màn hình chính với tên \"bai1\", \"bai111\", \"asdf\"",
+            "Tạo thư mục theo môn học/tên lớp, đặt tên tệp rõ ràng và sao lưu đám mây",
+            "Xóa hết tệp sau mỗi giờ học mà không lưu bản sao",
+            "Đặt tên mọi tệp giống hệt nhau"
+          ],
+          "aiSearchKeywordHint": "Kỹ năng quản lý lưu trữ tệp tin thư mục khoa học đám mây",
+          "correctAnswer": "Tạo thư mục theo môn học/tên lớp, đặt tên tệp rõ ràng và sao lưu đám mây",
+          "competencyId": "1.3",
+          "competencyIds": [
+            "1.3"
+          ],
+          "explanation": "Quản lý, lưu trữ (1.3) khoa học giúp bảo toàn bài làm và tra cứu nhanh chóng trên nhiều thiết bị."
+        },
+        {
+          "id": "q14-cyberbully",
+          "type": "multiple_choice",
+          "questionText": "Khi chứng kiến một bạn trong lớp bị người khác trêu chọc, nói xấu trong nhóm chat, công dân số có trách nhiệm sẽ làm gì?",
+          "options": [
+            "Hùa theo bình luận để cho vui",
+            "Chụp ảnh phát tán thêm lên trang khác",
+            "Không hùa theo, động viên bạn và báo ngay cho giáo viên/người lớn hỗ trợ",
+            "Tạo tài khoản ảo để chửi lại"
+          ],
+          "aiSearchKeywordHint": "Cách ứng xử khi gặp bắt nạt qua mạng cyberbullying học sinh",
+          "correctAnswer": "Không hùa theo, động viên bạn và báo ngay cho giáo viên/người lớn hỗ trợ",
+          "competencyId": "2.3",
+          "competencyIds": [
+            "2.3",
+            "2.5"
+          ],
+          "explanation": "Trách nhiệm công dân số (2.3) là bảo vệ sự an toàn, tôn trọng người khác và tìm sự trợ giúp kịp thời khi có bắt nạt mạng."
+        },
+        {
+          "id": "q15-troubleshoot",
+          "type": "multiple_choice",
+          "questionText": "Khi máy tính bảng mất kết nối Wi-Fi đột ngột giữa giờ làm bài EduBot, thao tác bình tĩnh và đúng nhất là gì?",
+          "options": [
+            "Đập nhẹ vào màn hình cho Wi-Fi chạy lại",
+            "Tiếp tục chọn đáp án để lưu ngoại tuyến, đồng thời kiểm tra lại nút Wi-Fi hoặc báo giáo viên hỗ trợ",
+            "Tắt nguồn máy tính bảng của các nhóm bên cạnh",
+            "Xóa sạch toàn bộ dữ liệu trình duyệt"
+          ],
+          "aiSearchKeywordHint": "Cách khắc phục sự cố mất kết nối Wi-Fi cơ bản trên máy tính bảng",
+          "correctAnswer": "Tiếp tục chọn đáp án để lưu ngoại tuyến, đồng thời kiểm tra lại nút Wi-Fi hoặc báo giáo viên hỗ trợ",
+          "competencyId": "5.1",
+          "competencyIds": [
+            "5.1"
+          ],
+          "explanation": "Khắc phục sự cố (5.1) giúp em xử lý bình tĩnh các lỗi kết nối phổ biến và tận dụng tính năng đồng bộ ngoại tuyến."
+        }
+      ]
+    },
+    {
+      "id": "lesson-ai-search",
+      "title": "Bài 2: Tìm kiếm thông minh & Đánh giá công cụ AI",
+      "topic": "Khai thác dữ liệu, Hợp tác số & Ứng dụng AI (TT 02/2025)",
+      "sourceFileName": "Bai2_UngDungAI_Va_TimKiem.txt",
+      "summary": "Rèn luyện kỹ năng đặt từ khóa tìm kiếm chính xác, phối hợp nhóm trên tài liệu đám mây và nhận diện hạn chế (ảo giác) của công cụ AI.",
+      "assignedClassIds": [
+        "LOP-5A",
+        "LOP-6A"
+      ],
+      "createdAt": "2026-11-17T04:06:16.496Z",
+      "questions": [
+        {
+          "id": "q2-1-search",
+          "type": "multiple_choice",
+          "questionText": "Để tìm kiếm thông tin chính xác về \"Năng lực công dân số\" dưới dạng tệp PDF trên công cụ tìm kiếm, cú pháp nào hiệu quả nhất?",
+          "options": [
+            "tìm cho tôi file pdf về công dân số đi",
+            "\"năng lực công dân số\" filetype:pdf",
+            "công dân số ???",
+            "pdf.com công dân số"
+          ],
+          "aiSearchKeywordHint": "Toán tử tìm kiếm Google dấu ngoặc kép và filetype:pdf",
+          "correctAnswer": "\"năng lực công dân số\" filetype:pdf",
+          "competencyId": "1.1",
+          "explanation": "Dùng dấu ngoặc kép để tìm cụm từ chính xác và toán tử filetype:pdf giúp lọc nhanh tài liệu chuẩn (Năng lực 1.1)."
+        },
+        {
+          "id": "q2-2-ai-hallucination",
+          "type": "multiple_choice",
+          "questionText": "Khi AI trả lời một sự kiện lịch sử nhưng bịa ra tên nhân vật hoặc năm sai sự thật, hiện tượng đó gọi là gì?",
+          "options": [
+            "Ảo giác AI (AI Hallucination)",
+            "Tăng tốc phần cứng",
+            "Sao lưu đám mây",
+            "Mã hóa đầu cuối"
+          ],
+          "aiSearchKeywordHint": "Hiện tượng AI bịa thông tin sai sự thật AI Hallucination",
+          "correctAnswer": "Ảo giác AI (AI Hallucination)",
+          "competencyId": "6.3",
+          "explanation": "Đánh giá công cụ AI (6.3) giúp học sinh hiểu rằng AI có thể tạo ra thông tin nghe rất thuyết phục nhưng sai sự thật (\"ảo giác AI\"), nên luôn phải đối chiếu nguồn gốc."
+        },
+        {
+          "id": "q2-3-collab",
+          "type": "multiple_choice",
+          "questionText": "Khi 4 bạn cùng làm một bài trình chiếu nhóm trên Google Slides hoặc Canva, em nên chia sẻ quyền như thế nào cho từng thành viên?",
+          "options": [
+            "Gửi mật khẩu tài khoản cá nhân của mình cho cả 3 bạn",
+            "Chia sẻ liên kết với quyền \"Người chỉnh sửa\" cho đúng email/tài khoản thành viên nhóm",
+            "Đăng công khai cho tất cả mọi người trên Internet cùng sửa",
+            "Chụp ảnh màn hình từng trang rồi gửi qua tin nhắn"
+          ],
+          "aiSearchKeywordHint": "Phân quyền chia sẻ tài liệu hợp tác nhóm trực tuyến",
+          "correctAnswer": "Chia sẻ liên kết với quyền \"Người chỉnh sửa\" cho đúng email/tài khoản thành viên nhóm",
+          "competencyId": "2.4",
+          "explanation": "Hợp tác số (2.4) an toàn và hiệu quả là phân quyền đúng người đúng việc, không dùng chung mật khẩu cá nhân."
+        },
+        {
+          "id": "q2-4-device",
+          "type": "multiple_choice",
+          "questionText": "Cuối tiết học, khi chuẩn bị bàn giao máy tính bảng dùng chung cho lớp sau, hành động nào thuộc năng lực Bảo vệ thiết bị & Danh tính?",
+          "options": [
+            "Đăng xuất tài khoản cá nhân và tắt các tab nhạy cảm",
+            "Để nguyên tài khoản đăng nhập cho bạn sau dùng tiếp",
+            "Tải nhiều trò chơi lạ từ trang web không rõ nguồn gốc",
+            "Đặt mật khẩu khóa máy mới mà không báo giáo viên"
+          ],
+          "aiSearchKeywordHint": "An toàn khi dùng máy tính bảng dùng chung đăng xuất tài khoản",
+          "correctAnswer": "Đăng xuất tài khoản cá nhân và tắt các tab nhạy cảm",
+          "competencyId": "4.1",
+          "competencyIds": [
+            "4.1",
+            "2.6"
+          ],
+          "explanation": "Bảo vệ thiết bị (4.1) và quản lý danh tính (2.6) khi dùng máy chung đòi hỏi luôn đăng xuất và bảo quản thiết bị sạch sẽ cho ca học kế tiếp."
+        },
+        {
+          "id": "q2-5-ai-understand",
+          "type": "multiple_choice",
+          "questionText": "Trí tuệ nhân tạo tạo sinh (Generative AI) hoạt động chủ yếu dựa trên nguyên lý nào sau đây?",
+          "options": [
+            "Có cảm xúc và ý thức tự nhiên giống hệt con người",
+            "Học mẫu dữ liệu lớn để dự đoán và tạo văn bản, hình ảnh theo yêu cầu (prompt)",
+            "Kết nối trực tiếp với suy nghĩ trong não người dùng",
+            "Luôn đúng 100% trong mọi phép tính và sự kiện"
+          ],
+          "aiSearchKeywordHint": "Nguyên lý hoạt động của AI tạo sinh Generative AI học sinh",
+          "correctAnswer": "Học mẫu dữ liệu lớn để dự đoán và tạo văn bản, hình ảnh theo yêu cầu (prompt)",
+          "competencyId": "6.1",
+          "explanation": "Hiểu biết về AI (6.1) giúp học sinh nhận ra AI là phần mềm học từ dữ liệu thống kê chứ không có ý thức hay chân lý tuyệt đối."
+        },
+        {
+          "id": "q2-6-prompt",
+          "type": "fill_blank",
+          "questionText": "Câu lệnh chi tiết chứa bối cảnh, yêu cầu và định dạng mà em nhập để giao tiếp với AI được gọi là ______.",
+          "aiSearchKeywordHint": "Prompt câu lệnh giao tiếp với AI là gì",
+          "correctAnswer": "prompt",
+          "competencyId": "6.1",
+          "competencyIds": [
+            "6.1",
+            "5.3"
+          ],
+          "explanation": "Viết prompt rõ ràng giúp công cụ AI hiểu đúng mục tiêu học tập và tạo câu trả lời hữu ích hơn."
+        },
+        {
+          "id": "q2-7-ai-privacy",
+          "type": "multiple_choice",
+          "questionText": "Dữ liệu nào em KHÔNG được nhập vào công cụ chatbot AI công cộng?",
+          "options": [
+            "Yêu cầu giải thích khái niệm \"Bản quyền số\"",
+            "Họ tên đầy đủ, số điện thoại, địa chỉ nhà hoặc ảnh giấy tờ của gia đình",
+            "Đoạn văn tiếng Anh em muốn tập dịch",
+            "Câu hỏi ôn tập môn Khoa học tự nhiên"
+          ],
+          "aiSearchKeywordHint": "An toàn dữ liệu cá nhân khi sử dụng ChatGPT và công cụ AI",
+          "correctAnswer": "Họ tên đầy đủ, số điện thoại, địa chỉ nhà hoặc ảnh giấy tờ của gia đình",
+          "competencyId": "6.2",
+          "competencyIds": [
+            "6.2",
+            "4.2"
+          ],
+          "explanation": "Sử dụng AI có đạo đức và an toàn (6.2, 4.2) đòi hỏi tuyệt đối không đưa thông tin cá nhân nhạy cảm vào khung chat AI."
+        },
+        {
+          "id": "q2-8-choose-tool",
+          "type": "multiple_choice",
+          "questionText": "Để cả nhóm 5 bạn cùng vẽ sơ đồ tư duy trực tuyến và xuất thành ảnh nộp thầy cô, nhóm nên chọn nhóm công cụ nào?",
+          "options": [
+            "Phần mềm máy tính bỏ túi (Calculator)",
+            "Công cụ vẽ sơ đồ/bảng trắng trực tuyến có tính năng cộng tác (như Canva, Padlet, MindMeister)",
+            "Ứng dụng ghi âm giọng nói đơn thuần",
+            "Trình phát nhạc offline"
+          ],
+          "aiSearchKeywordHint": "Lựa chọn công cụ số vẽ sơ đồ tư duy cộng tác trực tuyến",
+          "correctAnswer": "Công cụ vẽ sơ đồ/bảng trắng trực tuyến có tính năng cộng tác (như Canva, Padlet, MindMeister)",
+          "competencyId": "5.2",
+          "competencyIds": [
+            "5.2",
+            "2.4"
+          ],
+          "explanation": "Lựa chọn công cụ số (5.2) phù hợp giúp tối ưu hiệu quả làm việc nhóm và sản phẩm trình bày."
+        },
+        {
+          "id": "q2-9-verify-source",
+          "type": "multiple_choice",
+          "questionText": "Khi tìm được 2 trang web đưa ra số liệu dân số khác nhau, em cần ưu tiên tin tưởng nguồn nào hơn?",
+          "options": [
+            "Trang web có nhiều quảng cáo nhấp nháy nhất",
+            "Trang thông tin chính thống của cơ quan nhà nước (.gov.vn), tổ chức giáo dục (.edu.vn) hoặc sách giáo khoa",
+            "Bình luận ẩn danh dưới một video giải trí",
+            "Bài viết không ghi tác giả và không có ngày đăng"
+          ],
+          "aiSearchKeywordHint": "Tiêu chí đánh giá độ tin cậy của nguồn thông tin trên web",
+          "correctAnswer": "Trang thông tin chính thống của cơ quan nhà nước (.gov.vn), tổ chức giáo dục (.edu.vn) hoặc sách giáo khoa",
+          "competencyId": "1.2",
+          "explanation": "Đánh giá thông tin (1.2) dựa trên tên miền uy tín, tác giả rõ ràng, thời gian cập nhật và bằng chứng trích dẫn."
+        },
+        {
+          "id": "q2-10-remix",
+          "type": "multiple_choice",
+          "questionText": "Nhóm em tải một mẫu slide có giấy phép mở Creative Commons, thay đổi nội dung và kết hợp biểu đồ mới do nhóm tự đo đạc. Việc này thể hiện năng lực nào?",
+          "options": [
+            "3.2. Tích hợp và tạo lập lại (có ghi nguồn phù hợp)",
+            "4.4. Bảo vệ môi trường",
+            "2.1. Tương tác số đơn thuần",
+            "5.1. Sửa lỗi phần cứng"
+          ],
+          "aiSearchKeywordHint": "Năng lực tích hợp và tạo lập lại nội dung số giấy phép Creative Commons",
+          "correctAnswer": "3.2. Tích hợp và tạo lập lại (có ghi nguồn phù hợp)",
+          "competencyId": "3.2",
+          "competencyIds": [
+            "3.2",
+            "3.3"
+          ],
+          "explanation": "Tích hợp và tạo lập lại (3.2) là kết hợp sáng tạo nhiều nguồn nội dung số hợp pháp để tạo sản phẩm học tập mới."
+        },
+        {
+          "id": "q2-11-coding",
+          "type": "multiple_choice",
+          "questionText": "Khi dùng khối lệnh Scratch hoặc thuật toán để lập trình nhân vật trả lời câu hỏi trắc nghiệm Công dân số, em đang rèn luyện năng lực nào?",
+          "options": [
+            "3.4. Lập trình",
+            "4.3. Sức khỏe an sinh số",
+            "2.6. Quản lý danh tính",
+            "1.3. Quản lý lưu trữ"
+          ],
+          "aiSearchKeywordHint": "Năng lực lập trình Scratch trong khung năng lực số học sinh",
+          "correctAnswer": "3.4. Lập trình",
+          "competencyId": "3.4",
+          "explanation": "Lập trình (3.4) là viết chuỗi chỉ dẫn/khối lệnh logic để máy tính giải quyết một nhiệm vụ cụ thể."
+        },
+        {
+          "id": "q2-12-creative",
+          "type": "multiple_choice",
+          "questionText": "Thay vì chỉ chép bài ra giấy, nhóm em quay video ngắn 1 phút lồng tiếng minh họa cách phòng tránh tin giả cho cả trường xem. Đây là ví dụ của năng lực nào?",
+          "options": [
+            "5.3. Sử dụng sáng tạo & 3.1. Phát triển nội dung",
+            "4.2. Bảo vệ dữ liệu",
+            "1.3. Lưu trữ tệp",
+            "6.3. Đánh giá AI"
+          ],
+          "aiSearchKeywordHint": "Sử dụng sáng tạo công nghệ số và phát triển nội dung đa phương tiện",
+          "correctAnswer": "5.3. Sử dụng sáng tạo & 3.1. Phát triển nội dung",
+          "competencyId": "5.3",
+          "competencyIds": [
+            "5.3",
+            "3.1"
+          ],
+          "explanation": "Vận dụng công nghệ để tạo sản phẩm truyền thông hữu ích thể hiện Sử dụng sáng tạo (5.3) và Phát triển nội dung (3.1)."
+        },
+        {
+          "id": "q2-13-share-ethics",
+          "type": "multiple_choice",
+          "questionText": "Trước khi bấm nút \"Chia sẻ\" một bức ảnh chụp chung các bạn trong lớp lên trang web trường, điều quan trọng nhất em cần làm là gì?",
+          "options": [
+            "Chỉnh màu thật rực rỡ là đủ",
+            "Hỏi ý kiến đồng ý của các bạn có mặt trong ảnh và thầy cô phụ trách",
+            "Đăng lén để tạo bất ngờ",
+            "Gắn thẻ toàn bộ người lạ"
+          ],
+          "aiSearchKeywordHint": "Xin phép trước khi đăng ảnh người khác quyền riêng tư chia sẻ thông tin",
+          "correctAnswer": "Hỏi ý kiến đồng ý của các bạn có mặt trong ảnh và thầy cô phụ trách",
+          "competencyId": "2.2",
+          "competencyIds": [
+            "2.2",
+            "2.5"
+          ],
+          "explanation": "Chia sẻ thông tin (2.2) có trách nhiệm luôn tôn trọng quyền riêng tư và sự đồng thuận của người xuất hiện trong ảnh."
+        },
+        {
+          "id": "q2-14-improve",
+          "type": "multiple_choice",
+          "questionText": "Sau khi xem bảng thống kê EduBot thấy nhóm mình làm đúng 100% về An toàn mạng nhưng còn yếu ở phần Đặt từ khóa tìm kiếm, nhóm nên làm gì?",
+          "options": [
+            "Bỏ qua kỹ năng tìm kiếm, chỉ làm phần mình đã giỏi",
+            "Nhận diện điểm cần cải thiện và luyện tập thêm cách dùng từ khóa tìm kiếm",
+            "Xóa tên nhóm khỏi bảng xếp hạng",
+            "Không dùng máy tính bảng nữa"
+          ],
+          "aiSearchKeywordHint": "Cải thiện năng lực số tự đánh giá kỹ năng học tập",
+          "correctAnswer": "Nhận diện điểm cần cải thiện và luyện tập thêm cách dùng từ khóa tìm kiếm",
+          "competencyId": "5.4",
+          "explanation": "Cải thiện năng lực số (5.4) là biết tự đánh giá điểm mạnh, điểm thiếu sót của bản thân để chủ động học bổ sung."
+        },
+        {
+          "id": "q2-15-ai-check",
+          "type": "short_answer",
+          "questionText": "Nêu 1 việc em cần làm sau khi nhờ AI tóm tắt một bài học lịch sử hoặc khoa học trước khi đưa vào bài thuyết trình của nhóm.",
+          "aiSearchKeywordHint": "Cách kiểm chứng thông tin do AI tạo ra trước khi sử dụng",
+          "correctAnswer": "Kiểm tra đối chiếu lại với sách giáo khoa hoặc nguồn tin uy tín và tự diễn đạt lại",
+          "competencyId": "6.3",
+          "competencyIds": [
+            "6.3",
+            "1.2"
+          ],
+          "explanation": "Đánh giá công cụ AI (6.3) kết hợp Đánh giá thông tin (1.2) giúp đảm bảo nội dung chính xác và không phụ thuộc mù quáng vào AI."
+        }
+      ]
+    }
+  ],
+  "submissions": [
+    {
+      "id": "sub-seed-1",
+      "classId": "LOP-5A",
+      "groupId": "Máy-01 · Sao Xanh",
+      "tabletNumber": 1,
+      "groupName": "Sao Xanh",
+      "lessonId": "lesson-safety-netiquette",
+      "lessonTitle": "Bài 1: Bảo vệ dữ liệu & Ứng xử văn minh trên mạng",
+      "questionId": "q1-pw",
+      "competencyId": "4.2",
+      "userAnswer": "SaoXanh#5A@2026!",
+      "isCorrect": true,
+      "basePoints": 100,
+      "speedBonus": 42,
+      "totalPoints": 142,
+      "elapsedMs": 10500,
+      "submittedAt": "2026-11-17T03:18:39.062Z",
+      "feedbackText": "Chuẩn không cần chỉnh! Nhóm Sao Xanh bảo vệ mật khẩu siêu đỉnh!",
+      "explanation": "Mật khẩu mạnh kết hợp chữ hoa, chữ thường, số và ký tự đặc biệt."
+    },
+    {
+      "id": "sub-seed-2",
+      "classId": "LOP-5A",
+      "groupId": "Máy-01 · Sao Xanh",
+      "tabletNumber": 1,
+      "groupName": "Sao Xanh",
+      "lessonId": "lesson-safety-netiquette",
+      "lessonTitle": "Bài 1: Bảo vệ dữ liệu & Ứng xử văn minh trên mạng",
+      "questionId": "q5-health",
+      "competencyId": "4.3",
+      "userAnswer": "Áp dụng quy tắc 20-20-20: mỗi 20 phút nhìn xa 20 feet (~6m) trong 20 giây",
+      "isCorrect": true,
+      "basePoints": 100,
+      "speedBonus": 36,
+      "totalPoints": 136,
+      "elapsedMs": 15200,
+      "submittedAt": "2026-11-17T03:18:39.062Z",
+      "feedbackText": "Tuyệt vời! Mắt khỏe học vui cùng quy tắc 20-20-20!",
+      "explanation": "Giữ gìn sức khỏe an sinh số giúp học tập bền bỉ."
+    },
+    {
+      "id": "sub-seed-3",
+      "classId": "LOP-5A",
+      "groupId": "Máy-02 · Tia Chớp",
+      "tabletNumber": 2,
+      "groupName": "Tia Chớp",
+      "lessonId": "lesson-safety-netiquette",
+      "lessonTitle": "Bài 1: Bảo vệ dữ liệu & Ứng xử văn minh trên mạng",
+      "questionId": "q4-netiquette",
+      "competencyId": "2.5",
+      "userAnswer": "2.5. Quy tắc ứng xử (Netiquette)",
+      "isCorrect": true,
+      "basePoints": 100,
+      "speedBonus": 48,
+      "totalPoints": 148,
+      "elapsedMs": 7400,
+      "submittedAt": "2026-11-17T03:18:39.062Z",
+      "feedbackText": "Tốc độ ánh sáng! Nhóm Tia Chớp ứng xử văn minh số 1!",
+      "explanation": "Không viết toàn chữ in hoa hay chế giễu bạn bè trên mạng."
+    },
+    {
+      "id": "sub-seed-4",
+      "classId": "LOP-5A",
+      "groupId": "Máy-02 · Tia Chớp",
+      "tabletNumber": 2,
+      "groupName": "Tia Chớp",
+      "lessonId": "lesson-safety-netiquette",
+      "lessonTitle": "Bài 1: Bảo vệ dữ liệu & Ứng xử văn minh trên mạng",
+      "questionId": "q2-fakenews",
+      "competencyId": "1.2",
+      "userAnswer": "Kiểm chứng nguồn tin trên báo chính thống hoặc trang y tế uy tín",
+      "isCorrect": true,
+      "basePoints": 100,
+      "speedBonus": 40,
+      "totalPoints": 140,
+      "elapsedMs": 12100,
+      "submittedAt": "2026-11-17T03:18:39.062Z",
+      "feedbackText": "Quá tỉnh táo! Không tin giả nào qua mắt được Tia Chớp!",
+      "explanation": "Luôn kiểm chứng thông tin từ nguồn uy tín."
+    },
+    {
+      "id": "sub-seed-5",
+      "classId": "LOP-5A",
+      "groupId": "Máy-04 · Robot Nhí",
+      "tabletNumber": 4,
+      "groupName": "Robot Nhí",
+      "lessonId": "lesson-ai-search",
+      "lessonTitle": "Bài 2: Tìm kiếm thông minh & Đánh giá công cụ AI",
+      "questionId": "q2-2-ai-hallucination",
+      "competencyId": "6.3",
+      "userAnswer": "Ảo giác AI (AI Hallucination)",
+      "isCorrect": true,
+      "basePoints": 100,
+      "speedBonus": 45,
+      "totalPoints": 145,
+      "elapsedMs": 8900,
+      "submittedAt": "2026-11-17T03:18:39.062Z",
+      "feedbackText": "Siêu trí tuệ! Robot Nhí phát hiện ảo giác AI cực nhanh!",
+      "explanation": "AI có thể sai, luôn kiểm chứng lại thông tin."
+    },
+    {
+      "id": "sub-seed-6",
+      "classId": "LOP-5A",
+      "groupId": "Máy-05 · Họa Mi",
+      "tabletNumber": 5,
+      "groupName": "Họa Mi",
+      "lessonId": "lesson-safety-netiquette",
+      "lessonTitle": "Bài 1: Bảo vệ dữ liệu & Ứng xử văn minh trên mạng",
+      "questionId": "q3-copyright",
+      "competencyId": "3.3",
+      "userAnswer": "nguồn",
+      "isCorrect": true,
+      "basePoints": 100,
+      "speedBonus": 28,
+      "totalPoints": 128,
+      "elapsedMs": 21500,
+      "submittedAt": "2026-11-17T03:18:39.062Z",
+      "feedbackText": "Chính xác! Tôn trọng bản quyền là phẩm chất công dân số đẹp!",
+      "explanation": "Luôn ghi rõ nguồn khi trích dẫn tác phẩm."
+    },
+    {
+      "id": "sub-1794885566676-bylhi",
+      "classId": "LOP-5A",
+      "groupId": "Máy-03 · Hải Âu",
+      "tabletNumber": 3,
+      "groupName": "Hải Âu",
+      "lessonId": "lesson-safety-netiquette",
+      "lessonTitle": "Bài 1: Bảo vệ dữ liệu & Ứng xử văn minh trên mạng",
+      "questionId": "q1-pw",
+      "competencyId": "4.2",
+      "userAnswer": "SaoXanh#5A@2026!",
+      "isCorrect": true,
+      "basePoints": 100,
+      "speedBonus": 42,
+      "totalPoints": 142,
+      "elapsedMs": 10791,
+      "submittedAt": "2026-11-17T03:19:26.676Z",
+      "feedbackText": "Quá nhanh quá nguy hiểm! Nhóm Hải Âu ghi ngay +142 điểm (gồm +42 điểm tốc độ)!",
+      "explanation": "Mật khẩu mạnh cần kết hợp chữ hoa, chữ thường, chữ số và ký tự đặc biệt, tuyệt đối không dùng ngày sinh hay dãy số dễ đoán.",
+      "syncedFromOffline": false
+    },
+    {
+      "id": "sub-1794885584152-8btl3",
+      "classId": "LOP-5A",
+      "groupId": "Máy-03 · Hải Âu",
+      "tabletNumber": 3,
+      "groupName": "Hải Âu",
+      "lessonId": "lesson-safety-netiquette",
+      "lessonTitle": "Bài 1: Bảo vệ dữ liệu & Ứng xử văn minh trên mạng",
+      "questionId": "q2-fakenews",
+      "competencyId": "1.2",
+      "userAnswer": "Kiểm chứng nguồn tin trên báo chính thống hoặc trang y tế uy tín",
+      "isCorrect": true,
+      "basePoints": 100,
+      "speedBonus": 50,
+      "totalPoints": 150,
+      "elapsedMs": 6179,
+      "submittedAt": "2026-11-17T03:19:42.676Z",
+      "feedbackText": "Quá nhanh quá nguy hiểm! Nhóm Hải Âu ghi ngay +150 điểm (gồm +50 điểm tốc độ)!",
+      "explanation": "Năng lực Đánh giá thông tin (1.2) yêu cầu luôn kiểm tra tác giả, nguồn gốc và đối chiếu nhiều nguồn tin cậy trước khi tin hoặc chia sẻ.",
+      "syncedFromOffline": true
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif-seed-1",
+      "classId": "LOP-5A",
+      "lessonId": "lesson-safety-netiquette",
+      "title": "Bài tập mới: Bảo vệ dữ liệu & Ứng xử văn minh",
+      "message": "Cô Minh Anh vừa giao 6 thử thách Công dân số cho lớp LOP-5A. Các nhóm hãy dùng AI tra cứu từ khóa gợi ý và ghi điểm nhé!",
+      "createdAt": "2026-11-17T03:18:39.062Z",
+      "readByGroupIds": []
+    },
+    {
+      "id": "notif-seed-2",
+      "classId": "LOP-5A",
+      "lessonId": "lesson-ai-search",
+      "title": "Bài tập mới: Tìm kiếm thông minh & Đánh giá AI",
+      "message": "Nhiệm vụ mới dành cho 10 máy tính bảng lớp LOP-5A đã sẵn sàng!",
+      "createdAt": "2026-11-17T03:18:39.062Z",
+      "readByGroupIds": []
+    },
+    {
+      "id": "notif-seed-3",
+      "classId": "LOP-5B",
+      "lessonId": "lesson-safety-netiquette",
+      "title": "Bài tập mới cho lớp LOP-5B",
+      "message": "Thầy Quốc Bảo đã kích hoạt bộ câu hỏi Bảo vệ dữ liệu & Ứng xử văn minh trên mạng.",
+      "createdAt": "2026-11-17T03:18:39.062Z",
+      "readByGroupIds": []
+    }
+  ],
+  "activityLogs": [
+    {
+      "id": "log-1794888420299",
+      "classId": "LOP-TEST9",
+      "groupId": "Giáo viên",
+      "action": "Cập nhật lớp học",
+      "detail": "LOP-TEST9 · Lớp Kiểm Thử 9 (Đã sửa) (Khối 5 - Thầy An)",
+      "timestamp": "2026-11-17T04:07:00.299Z"
+    },
+    {
+      "id": "log-1794888414071",
+      "classId": "LOP-5A",
+      "groupId": "Giáo viên",
+      "action": "Chỉnh sửa bài học",
+      "detail": "Bài 1: Bảo vệ dữ liệu & Ứng xử văn minh trên mạng (15 câu hỏi)",
+      "timestamp": "2026-11-17T04:06:54.071Z"
+    },
+    {
+      "id": "log-1794888413337",
+      "classId": "LOP-5A",
+      "groupId": "Giáo viên",
+      "action": "Chỉnh sửa bài học",
+      "detail": "Bài 1: Bảo vệ dữ liệu & Ứng xử văn minh trên mạng [Đã cập nhật] (15 câu hỏi)",
+      "timestamp": "2026-11-17T04:06:53.337Z"
+    },
+    {
+      "id": "log-1794885584152-hh0x",
+      "classId": "LOP-5A",
+      "groupId": "Máy-03 · Hải Âu",
+      "action": "Đồng bộ ngoại tuyến · Đúng",
+      "detail": "Năng lực 1.2 (Đánh giá thông tin) · 6.2s",
+      "competencyId": "1.2",
+      "pointsDelta": 150,
+      "timestamp": "2026-11-17T03:19:42.676Z"
+    },
+    {
+      "id": "log-1794885566676-awiv",
+      "classId": "LOP-5A",
+      "groupId": "Máy-03 · Hải Âu",
+      "action": "Trả lời đúng",
+      "detail": "Năng lực 4.2 (Bảo vệ dữ liệu cá nhân) · 10.8s",
+      "competencyId": "4.2",
+      "pointsDelta": 142,
+      "timestamp": "2026-11-17T03:19:26.676Z"
+    },
+    {
+      "id": "log-seed-1",
+      "classId": "LOP-5A",
+      "groupId": "Máy-02 · Tia Chớp",
+      "action": "Trả lời đúng",
+      "detail": "Câu hỏi 2.5 · Quy tắc ứng xử (Netiquette) · 7.4s",
+      "competencyId": "2.5",
+      "pointsDelta": 148,
+      "timestamp": "2026-11-17T03:18:39.062Z"
+    },
+    {
+      "id": "log-seed-2",
+      "classId": "LOP-5A",
+      "groupId": "Máy-01 · Sao Xanh",
+      "action": "Trả lời đúng",
+      "detail": "Câu hỏi 4.2 · Bảo vệ dữ liệu cá nhân · 10.5s",
+      "competencyId": "4.2",
+      "pointsDelta": 142,
+      "timestamp": "2026-11-17T03:18:39.062Z"
+    },
+    {
+      "id": "log-seed-3",
+      "classId": "LOP-5A",
+      "groupId": "Máy-04 · Robot Nhí",
+      "action": "Trả lời đúng",
+      "detail": "Câu hỏi 6.3 · Đánh giá công cụ AI · 8.9s",
+      "competencyId": "6.3",
+      "pointsDelta": 145,
+      "timestamp": "2026-11-17T03:18:39.062Z"
+    }
+  ]
+}
